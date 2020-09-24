@@ -1,4 +1,4 @@
 ## Flask-Deployment of ML Model
-This is a project on deploymnet of ML model using Flask 
+This is a project on deployment of ML model using Flask 
 .
 
