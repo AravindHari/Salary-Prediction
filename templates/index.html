@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html >
-<!--From https://codepen.io/frytyler/pen/EGdtg-->
+
 <head>
   <meta charset="UTF-8">
   <title>Salary Prediction</title>
@@ -16,7 +16,7 @@
  <div class="login">
 	<h1>Predict Salary</h1>
 
-     <!-- Main Input For Receiving Query to the model -->
+     <!-- Receiving Query to the model -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="experience" placeholder="Experience" required="required" />
         <input type="text" name="test_score" placeholder="Test Score" required="required" />
